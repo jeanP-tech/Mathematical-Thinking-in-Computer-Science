@@ -1,4 +1,4 @@
-existence Proofs
+Existence Proofs
 ===========
 
 One Example is Enough
