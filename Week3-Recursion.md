@@ -104,4 +104,46 @@ Mathematical Induction
 - ...
 - Profit
 
+Sum of Numbers
+-----------
+
+General case
+>Problem: What is the sum of integer numbers from 1 to n?
+>Theorem: The sum of integers from 1 to n is n(n+1) / 2
+
+Bernoulli's Inequality
+-----------------
+
+>Problem
+>You start with $1000 and earn 2% of what you have every day. Will you ever get more than $1,000,000?
+
+On day n, you have $1,000 * 1.02^(n-1)
+
+>Problem
+>Is there such n that 1000*1.02^n > 1000000? Or, is there such n that 1.02^n > 1000?
+
+>Theorem
+>For any n>=0 and x>0, (1+x)^n >= 1 + nx
+
+Coins Problem
+------------
+
+>Problem
+>You have an unlimited supply of 4 cents and 5 cents coins. Prove that for any n>= 12, you can give change of n cents using these coins.
+
+Proof by Induction
+>Induction base: n = 12  
+Indeed, 12 = 3*4, so using just 4 cents coins is enough
+
+Complete Induction
+>Induction base: n = 12, n = 13, n = 14 and n = 15  
+12 = 3*4
+13 = 2*4 +1*5
+14 = 2*5 +1*4
+15 = 3*5
+
+Induction step: n, n-1, n-2, n-3 -> n+1  
+If we know that n-3 can be given with 4 cents and 5 cents coins n-3 = a*4 + b*5, then n+1 also can be given with tese coins:    
+n +1=(n-3) + 4 = a*4 + b*5 + 4 = 
+
 
