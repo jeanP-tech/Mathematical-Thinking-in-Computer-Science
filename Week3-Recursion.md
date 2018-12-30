@@ -147,3 +147,14 @@ If we know that n-3 can be given with 4 cents and 5 cents coins n-3 = a*4 + b*5,
 n +1=(n-3) + 4 = a*4 + b*5 + 4 = 
 
 
+triangle into several acute triangles?
+
+>Theorem:
+>If an obtuse triangle is cut into n>=1 triangular pieces, at least one of the pieces is obtuse.
+
+Induction base: n = 1/ The initial triangle is obtuse, so if there is only one piece, it is also obtuse.
+
+>Induction step: n -> n + 1
+By assumption of induction, there is an obtuse piece. If we cut it into two traiangles, at least one of them is obtuse, so an obtuse piece remains.
+
+The induction step assumed that if we cut a triangle into several triangular pieces, we can do it by several steps of cutting a triangular piece into two triangles. However, this is not always possible.
