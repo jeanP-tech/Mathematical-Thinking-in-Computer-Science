@@ -10,7 +10,7 @@ Examples
 
 Counterexamples
 ---------
--Just one counterexample is sufficient to disprove a statement
+- Just one counterexample is sufficient to disprove a statement
 - If we want to prove that all swans are white...
 - Just one black swan is sufficient to disprove it
 - However, it is often hard to find such counterexamples
@@ -34,11 +34,11 @@ Logical Operations
 Negation is true if and olnly if the initial statements is wrong, and vice versa.
 
 <h3>Logical And</h3>
-> 4 = 2 + 2 AND 4 = 2 * 2
+>4 = 2 + 2 AND 4 = 2 * 2
 The logical AND of two statement is true if and only if both statements are true.
 
 <h3>Logical OR</h3>
-> 4 = 2 + 2 OR 5 = 2 + 2
+>4 = 2 + 2 OR 5 = 2 + 2
 The logical OR of two statements is true if and only if at least one of them is true. 
 
 <h3>Negation of AND</h3>
@@ -68,6 +68,7 @@ Statements like
 are examples of universal quantification
 
 <h3>Existential Quantification</h3>
+
 Statements like
 - There are black swans
 - There is a way to get a change of 12 cents with 4cents and 5-cents cois
