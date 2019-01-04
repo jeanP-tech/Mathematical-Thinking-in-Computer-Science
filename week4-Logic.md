@@ -74,3 +74,14 @@ Statements like
 - There is a way to get a change of 12 cents with 4cents and 5-cents cois
 - There is a power of 2 starting with 65
 are examples of existential quantification
+
+Handshakes
+--------
+
+>Problem
+>There are 30 persons in the room, some of them had shaken hands. Prove that there are two persons who shaked equal number of hands.
+
+ - We are experienced: let's count
+- 30 people ("pigeons")
+- Each person could have shaken 0 to 29 hands. 30 options in total("pigeonholes")
+- Note: 0 and 29 handshakes are impossible simultaneously! Now we have 29 pigeonholes
